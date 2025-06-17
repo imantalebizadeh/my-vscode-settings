@@ -1,7 +1,9 @@
 {
+  // Cursor
   "cursor.cpp.enablePartialAccepts": true,
   "cursor.composer.shouldChimeAfterChatFinishes": true,
 
+  // Editor
   "window.commandCenter": true,
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.autoClosingBrackets": "always",
@@ -24,7 +26,7 @@
     "**/app/**/layout.{jsx,tsx}": "Layout - ${dirname}"
   },
 
-  "files.autoSave": "afterDelay",
+  // Files
   "files.associations": {
     "*.css": "tailwindcss"
   },
@@ -37,6 +39,7 @@
     "**/Thumbs.db": true
   },
 
+  // Formatter
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -59,15 +62,17 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
 
+  // Git
   "git.suggestSmartCommit": false,
   "git.confirmSync": false,
 
+  // Extentions
   "tailwindCSS.emmetCompletions": true,
   "tailwindCSS.lint.cssConflict": "error",
-
   "cSpell.language": "en,fa",
   "cSpell.userWords": ["oklch", "turbopack"],
 
+  // Misc
   "redhat.telemetry.enabled": true,
   "json.schemaDownload.enable": true,
   "typescript.updateImportsOnFileMove.enabled": "always"
