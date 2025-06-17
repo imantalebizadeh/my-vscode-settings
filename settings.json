@@ -1,0 +1,74 @@
+{
+  "cursor.cpp.enablePartialAccepts": true,
+  "cursor.composer.shouldChimeAfterChatFinishes": true,
+
+  "window.commandCenter": true,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.autoClosingBrackets": "always",
+  "editor.fontFamily": "'Monaspace Neon', vazir",
+  "editor.fontLigatures": "'calt', 'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'ss09', 'liga'",
+  "editor.fontWeight": "300",
+  "editor.fontSize": 13,
+  "editor.wordWrap": "on",
+  "editor.linkedEditing": true,
+  "editor.quickSuggestions": {
+    "other": "on",
+    "comments": "off",
+    "strings": "on"
+  },
+  "workbench.colorTheme": "Bearded Theme Arc",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.editor.customLabels.patterns": {
+    "**/app/api/**/route.{js,ts}": "api - ${dirname(1)} - ${filename}",
+    "**/app/**/page.{jsx,tsx}": "Page - ${dirname}",
+    "**/app/**/layout.{jsx,tsx}": "Layout - ${dirname}"
+  },
+
+  "files.autoSave": "afterDelay",
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "files.exclude": {
+    "**/.git": false,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true
+  },
+
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "git.suggestSmartCommit": false,
+  "git.confirmSync": false,
+
+  "tailwindCSS.emmetCompletions": true,
+  "tailwindCSS.lint.cssConflict": "error",
+
+  "cSpell.language": "en,fa",
+  "cSpell.userWords": ["oklch", "turbopack"],
+
+  "redhat.telemetry.enabled": true,
+  "json.schemaDownload.enable": true,
+  "typescript.updateImportsOnFileMove.enabled": "always"
+}
