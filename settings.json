@@ -1,51 +1,69 @@
 {
-  // Editor
-  "window.commandCenter": true,
-  "workbench.iconTheme": "bearded-icons",
-  "workbench.colorTheme": "Cursor Dark Midnight",
-  "cursor.composer.shouldChimeAfterChatFinishes": true,
-  "explorer.compactFolders": false,
-  "editor.fontFamily": "'Zed Plex Mono Text', vazirmatn",
-  "editor.fontLigatures": true,
-  "editor.cursorBlinking": "phase",
-  "editor.cursorSmoothCaretAnimation": "on",
-  "editor.defaultFormatter": "biomejs.biome",
-  "editor.quickSuggestions": {
-      "strings": "on"
-  },
-  "files.autoSave": "afterDelay",
-  "files.associations": {
-      "*.css": "tailwindcss"
-  },
-  "files.exclude": {
-      "**/.git": false,
-      "**/.svn": true,
-      "**/.hg": true,
-      "**/.DS_Store": true,
-      "**/Thumbs.db": true
-  },
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  // Git
-  "git.suggestSmartCommit": false,
-  "git.confirmSync": false,
-  // Extentions
-  "cSpell.language": "en,fa",
-  "reactSnippets.settings.importReactOnTop": false,
-  "biome.suggestInstallingGlobally": false,
-  "svelte.enable-ts-plugin": true,
-  "tailwindCSS.emmetCompletions": true,
-  "tailwindCSS.classFunctions": [
-      "tw",
-      "clsx",
-      "cn",
-      "tw\\.[a-z-]+"
-  ],
-  "[svelte]": {
-      "editor.defaultFormatter": "svelte.svelte-vscode"
-  },
-  "[tailwindcss]": {
-      "editor.defaultFormatter": "biomejs.biome"
-  },
-  "redhat.telemetry.enabled": true,
+	// Window
+	"window.commandCenter": true,
+	// Workbench
+	"workbench.colorTheme": "Cursor Light",
+	"workbench.iconTheme": "material-icon-theme",
+	// Cursor
+	"cursor.composer.shouldChimeAfterChatFinishes": true,
+	// Editor
+	"editor.fontFamily": "'Zed Plex Mono Text', vazirmatn",
+	"editor.fontLigatures": true,
+	"editor.cursorBlinking": "phase",
+	"editor.cursorSmoothCaretAnimation": "on",
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"diffEditor.ignoreTrimWhitespace": false,
+	// Files
+	"files.autoSave": "afterDelay",
+	"files.exclude": {
+		"**/.git": false,
+		"**/.svn": true,
+		"**/.hg": true,
+		"**/.DS_Store": true,
+		"**/Thumbs.db": true
+	},
+	"files.associations": {
+		"*.css": "tailwindcss"
+	},
+	// Extentions
+	"biome.suggestInstallingGlobally": false,
+	"cSpell.language": "en,fa",
+	"tailwindCSS.emmetCompletions": true,
+	"tailwindCSS.classFunctions": ["tw", "clsx", "cn", "tw\\.[a-z-]+"],
+	"redhat.telemetry.enabled": true,
+	// Languages
+	"[typescript]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[javascriptreact]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[css]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[graphql]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[markdown]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[svg]": {
+		"editor.defaultFormatter": "jock.svg"
+	},
+	"[tailwindcss]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"json.schemaDownload.enable": true
 }
